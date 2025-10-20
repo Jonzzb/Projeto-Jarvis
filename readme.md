@@ -15,11 +15,11 @@ Vamos ao básico:
 - 🧩 Usa variáveis de ambiente (`.env`) para chaves de API
 
 # Primeiro de tudo:
-    Neste caso, precisamos garantir que voce tenha ambas chaves API'S para funcionamento do Jarvis. Portanto, é preciso
+Neste caso, precisamos garantir que voce tenha ambas chaves API'S para funcionamento do Jarvis. Portanto, é preciso
 a busca dessas chaves no:
 
-# API GROQ: https://console.groq.com/home
-# API ELEVEN_LABS: https://elevenlabs.io/app/developers/api-keys
+## API GROQ: https://console.groq.com/home
+## API ELEVEN_LABS: https://elevenlabs.io/app/developers/api-keys
 
 O GROQ e o ElevenLabs são completamente gratúitos. E afins de curiosidades e conhecimento, Groq é uma API que utiliza
 de comandos json para retirar informações de uma IA (no caso do GROQ, as ia's disponíveis são bem variáveis) e envia
@@ -27,10 +27,10 @@ a informação de volta, a qual o código decompõe, e retorna apenas a resposta
 em formato de audio ou "GGTs".
 
 # Sobre a ElevenLabs:
-    Para fins de entreterimento, devo alertar de como alterar a voz da API para uma de sua escolha. Após fazer login e alterar
-    o .env com sua chave, você pode olhar no catálogo (gratuíto, ou se de sua escolha, pagar) para buscar um novo código e
-    alterar a voz. 
-    O passo a passo é:
+Para fins de entreterimento, devo alertar de como alterar a voz da API para uma de sua escolha. Após fazer login e alterar
+o .env com sua chave, você pode olhar no catálogo (gratuíto, ou se de sua escolha, pagar) para buscar um novo código e
+alterar a voz. 
+O passo a passo é:
 
     localize no código onde temos a 30 e a 34 linha, onde estamos criando a classe/objeto da sintetização da voz do Jarvis.
 
@@ -47,7 +47,7 @@ em formato de audio ou "GGTs".
 Para uso, você pode clonar o repositório ou simplesmente copiar os códigos para sua IDE de uso. Recomendo utilizar o VSCode,
 IDE onde foi feito este projeto.
 
-# Instalação de bibliotecas
+## Instalação de bibliotecas
 
 Para instalar as bibliotecas utilizadas, deve-se abrir o terminal do VSCode e utilizar o seguinte comando:
 
@@ -68,5 +68,6 @@ publicar da melhor maneira.
 de resto, execute o comando - python main.py no terminal, ou apenas rode o código.
 
 # Diga ou digite SAIR para encerrar o Jarvis, ou use CTRL+C.
+
 
 Por fim, divirta-se!
