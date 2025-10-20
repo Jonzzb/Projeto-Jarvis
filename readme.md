@@ -51,11 +51,11 @@ IDE onde foi feito este projeto.
 
 Para instalar as bibliotecas utilizadas, deve-se abrir o terminal do VSCode e utilizar o seguinte comando:
 
-pip install requests pygame speechrecognition python-dotenv gtts
+    pip install requests pygame speechrecognition python-dotenv gtts
 
 ou
 
-python -m pip install requests pygame speechrecognition python-dotenv gtts
+    python -m pip install requests pygame speechrecognition python-dotenv gtts
 
 
 Este comando irá instalar automaticamente as bibliotecas que o código necessita para rodar.
@@ -67,7 +67,8 @@ publicar da melhor maneira.
 
 de resto, execute o comando - python main.py no terminal, ou apenas rode o código.
 
-# Diga ou digite SAIR para encerrar o Jarvis, ou use CTRL+C.
+## Diga ou digite SAIR para encerrar o Jarvis, ou use CTRL+C.
 
 
 Por fim, divirta-se!
+
