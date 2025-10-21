@@ -44,16 +44,17 @@ O passo a passo é:
 
         Essa ultima línha, deve ser alterada pelo código escolhido dentro dos parênteses.
 
-Após essa alteração, vale ressaltar que como qualquer IA, Jarvis segue apenas um padrão que colocamos de ínicio nele. Caso
-queira alterar a sua personalidade (e o gênero também) pode fazer alteração no prompt para o que tiver afim de fazer.
+Após essa alteração, vale ressaltar que como qualquer IA, Jarvis segue apenas um padrão que adicionamos de ínicio a ele, ou seja, 
+o seu prompt.Caso queira alterar a sua personalidade, nome (e o gênero também) pode fazer alteração no prompt para o que tiver afim de fazer.
 Entre a linha 150 e 159, temos o código:
+
     payload = {
                 "messages": [
                     {
                         "role": "system", 
-                        "content": "Você é JARVIS. Seja conciso e direto. Sempre chame o usuário de 'Chefe'." # Entre os parenteses, está o Prompt que 
-                        # é enviado junto com a sua pergunta, ele define a personalidade do Jarvis. Precisa apenas alterar e escrever como você quer
-                        # que ele aja.
+                        "content": "Você é JARVIS. Seja conciso e direto. Sempre chame o usuário de 'Chefe'." Entre os parenteses, está o Prompt que 
+                        é enviado junto com a sua pergunta, ele define a personalidade do Jarvis. Precisa apenas alterar e escrever como você quer
+                        que ele aja.
                     },
                     {
                         "role": "user",
@@ -88,5 +89,6 @@ de resto, execute o comando - python main.py no terminal, ou apenas rode o códi
 
 
 Por fim, divirta-se!
+
 
 
