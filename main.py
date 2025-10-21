@@ -50,7 +50,7 @@ class SistemaVoz:
         self._usar_gtts(texto)
         self.falando = False
             
-    def _usar_elevenlabs(self, texto): #busca a API com base no URL que é enviado um prompt com o que foi dito para retonar as informações
+    def _usar_elevenlabs(self, texto): #busca a API com base no URL que é enviado um prompt com o que foi dito para retornar as informações
         try:
             url = f"https://api.elevenlabs.io/v1/text-to-speech/{self.voice_id}"
             headers = {
@@ -261,3 +261,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         print(f"Erro: {e}") #tratamento de erros gerais, caso tudo funcione e de algum erro mais específico.
+
