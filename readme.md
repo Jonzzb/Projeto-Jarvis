@@ -1,6 +1,6 @@
 ## Bom dia/Boa tarde/Boa noite!!
 
-Esse projeto visa criar um simples assistente virtual com respostas independentes e que gere um pouco de entreterimento.
+Esse projeto visa criar um simples assistente virtual com respostas independentes e que gere um pouco de entretenimento.
 Como essa é sua versão 1.0, ele não possuí features muito complexas nem comandos que faça ou automatize qualquer tarefa.
 Contudo, o código está estruturado para se tornar livre a qualquer adição complexa ou simples que for fazer sem alterar
 ou danificar o funcionamento dele.
@@ -44,6 +44,23 @@ O passo a passo é:
 
         Essa ultima línha, deve ser alterada pelo código escolhido dentro dos parênteses.
 
+Após essa alteração, vale ressaltar que como qualquer IA, Jarvis segue apenas um padrão que colocamos de ínicio nele. Caso
+queira alterar a sua personalidade (e o gênero também) pode fazer alteração no prompt para o que tiver afim de fazer.
+Entre a linha 150 e 159, temos o código:
+    payload = {
+                "messages": [
+                    {
+                        "role": "system", 
+                        "content": "Você é JARVIS. Seja conciso e direto. Sempre chame o usuário de 'Chefe'." # Entre os parenteses, está o Prompt que 
+                        # é enviado junto com a sua pergunta, ele define a personalidade do Jarvis. Precisa apenas alterar e escrever como você quer
+                        # que ele aja.
+                    },
+                    {
+                        "role": "user",
+                        "content": pergunta
+                    }
+
+
 Para uso, você pode clonar o repositório ou simplesmente copiar os códigos para sua IDE de uso. Recomendo utilizar o VSCode,
 IDE onde foi feito este projeto.
 
@@ -71,4 +88,5 @@ de resto, execute o comando - python main.py no terminal, ou apenas rode o códi
 
 
 Por fim, divirta-se!
+
 
